@@ -13,9 +13,9 @@ export default function Home() {
     <section>
       <header>
         <h2 className='font-medium text-2xl mb-2 tracking-tight font-["monospace"]'
-          >Sup, I'm Abhiram 👋</h2>
+          >Sup, I &apos; m Abhiram 👋</h2>
         <p>
-          I’m a Full Stack Web Developer from Mohali, India, trying to make the
+          I &apos; m a Full Stack Web Developer from Mohali, India, trying to make the
           internet a bit cooler one website at a time.
         </p>
       </header>

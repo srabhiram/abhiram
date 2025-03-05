@@ -1,6 +1,6 @@
 import React from "react";
 
-function Badge(props) {
+function Badge(props: React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLAnchorElement> & React.AnchorHTMLAttributes<HTMLAnchorElement>) {
   return (
     <a
       {...props}

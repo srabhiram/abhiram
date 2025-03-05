@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Badge from "./Badge";
 import Separator from "./Seperator";
 import Chip from "./Chip";
 

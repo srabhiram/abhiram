@@ -18,7 +18,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cx = (...classes) => classes.filter(Boolean).join(" ");
+  const cx = (...classes: string[]) => classes.filter(Boolean).join(" ");
 
   return (
     <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>

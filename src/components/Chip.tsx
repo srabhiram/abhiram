@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Chip(props) {
+function Chip(props: React.JSX.IntrinsicAttributes & React.ClassAttributes<HTMLSpanElement> & React.HTMLAttributes<HTMLSpanElement>) {
   return (
     <span
     {...props}
