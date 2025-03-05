@@ -1,5 +1,5 @@
-import Badge from "../components/Badge.tsx";
-import Separator from "../components/Seperator.tsx";
+import Badge from "../components/Badge";
+import Separator from "../components/Seperator";
 import Image from "next/image";
 import logo_10kcoders from "../../public/logo_coders.png";
 import { Metadata } from "next";
