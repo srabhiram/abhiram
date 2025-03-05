@@ -66,7 +66,7 @@ export default function Home() {
       <div>
         <h2 className="font-semibold text-xl my-4">Leadership & Community</h2>
         <p>
-          I've learned how to lead a team and stay organised. I also assist my
+          I &apos;ve learned how to lead a team and stay organised. I also assist my
           friends with their projects by troubleshooting and solving bugs,
           helping them optimize their code and improve their applications.
         </p>
