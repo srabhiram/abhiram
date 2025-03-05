@@ -4,6 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Abhiram",
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Nav />
           {children}
           <Footer />
+          <Analytics/>
         </main>
       </body>
     </html>
