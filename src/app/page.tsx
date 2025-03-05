@@ -21,7 +21,7 @@ export default function Home() {
       </header>
       <Separator />
       <div>
-        <h2 className="font-semibold text-xl my-4">Professionall Work</h2>
+        <h2 className="font-semibold font-['monospace'] text-xl my-4">Professionall Work</h2>
 
         <p className="align-middle">
           I specailised in building scalable and responsive web applications I
