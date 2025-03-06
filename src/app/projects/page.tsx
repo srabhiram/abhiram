@@ -3,12 +3,25 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Projects | Abhiram",
-    description: "Projects",
-    openGraph : {
-        title: "Projects",
-    }
-}
+  title: "Projects |Abhiram",
+  description:
+    "Explore Abhiram's projects, including frontend and fullstack web apps",
+  openGraph: {
+    title: "Abhiram's Projects",
+    description:
+      "Discover the latest projects built by Abhiram, including frontend and fullstack web apps.",
+    url: "https://abhiramsriramoji.vercel.app/projects",
+    siteName: "Abhiram's Portfolio",
+    images: [
+      {
+        url: "/project_preview.png",
+        height: 630,
+        alt: "Abhiram's Projects",
+      },
+    ],
+    type: "website",
+  },
+};
 function Projects() {
   const Projects_data = [
     {
@@ -38,24 +51,27 @@ function Projects() {
     {
       project_name: "E-Prathibha",
 
-      description: "A UPSC Exam Preaparation Web App, where user can practice for UPSC exam",
-      technologies: ["React", "Bootstrap", "Redux","RestAPI"],
+      description:
+        "A UPSC Exam Preaparation Web App, where user can practice for UPSC exam",
+      technologies: ["React", "Bootstrap", "Redux", "RestAPI"],
       website: "",
     },
     {
       project_name: "SecureAUTH",
 
-      description: "A secure Authentication system, featuring Signup and Signin with dynamic and responsive outputs.",
+      description:
+        "A secure Authentication system, featuring Signup and Signin with dynamic and responsive outputs.",
       technologies: ["Node", "Express", "EJS", "JWT", "MongoDB"],
       website: "",
     },
     {
       project_name: "QR code Generator",
-      
-      description: "A QR Code Generator, where user can generate QR codes for any URL/Text",
+
+      description:
+        "A QR Code Generator, where user can generate QR codes for any URL/Text",
       technologies: ["React", "Javascript", "TailwindCSS"],
       website: "",
-    }
+    },
   ];
   return (
     <main>
