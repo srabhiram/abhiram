@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 function Nav() {
-  const handlePrint = ()=>{
+  const handlePrint = () => {
     window.print();
   };
   const curentPathname = usePathname();
   return (
-    <aside>
-      <nav className="flex justify-between items-center">
+    <aside className="">
+      <nav className="flex scroll-pr-6 relative md:overflow-auto  justify-between items-center">
         <div className="flex justify-start gap-4 mt-4 mb-6 py-2 text-[17px]">
           <Link href="/">
             {" "}
@@ -36,7 +36,10 @@ function Nav() {
         </div>
         <div>
           {curentPathname === "/resume" && (
-            <div className="flex gap-1.5 hover:cursor-pointer font-sans text-white hover:bg-white/5 rounded  border-solid border-1 p-1 mr-4" onClick={handlePrint}>
+            <div
+              className="flex gap-1.5 hover:cursor-pointer font-sans text-white hover:bg-white/5 rounded  border-solid border-1 p-1 mr-4"
+              onClick={handlePrint}
+            >
               Print <span>🖨️</span>
             </div>
           )}
