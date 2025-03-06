@@ -75,7 +75,7 @@ function ResumePage() {
   return (
     <section>
       <div>
-        <h2 className="text-xl tracking-tight font-semibold mb-4 font-serif">My Resume</h2>
+        <h2 className="text-xl tracking-tight font-semibold mb-4 font-serif">My Resume 📝</h2>
       </div>
 
       <div>
