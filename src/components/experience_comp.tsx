@@ -31,7 +31,7 @@ const ExperienceItem: FC<workExperienceProps> = ({ job }) => {
           ))}
         </div>
       )}
-      <ul className="list-disc list-inside text-justify mb-6">
+      <ul className="list-disc list-inside md:text-justify mb-6">
         {job.responsibilities.map((responiblities: string, rIndex) => (
           <li key={rIndex} className="mb-2 marker:text-white/70">{responiblities}</li>
         ))}
