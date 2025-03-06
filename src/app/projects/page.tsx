@@ -3,7 +3,7 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects |Abhiram",
+  title: "Projects | Abhiram",
   description:
     "Explore Abhiram's projects, including frontend and fullstack web apps",
   openGraph: {

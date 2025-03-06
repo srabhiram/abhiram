@@ -5,7 +5,7 @@ import Separator from "@/components/Seperator";
 import EducationItem from "@/components/education-comp"
 
 export const metadata: Metadata = {
-	title: "Resume |Abhiram",
+	title: "Resume | Abhiram",
 	description:
 		"A summary of Abhiram's corporate contributions, skills, and experience as a Full-Stack Developer, including work with GlobalLogic and 10000 Coders",
 	openGraph: {
