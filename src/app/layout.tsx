@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Head from 'next/head';
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
@@ -13,6 +12,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/new-icon.jpg",
   },
+  verification: {
+    google: "iTIYemNM9tmUoVmVehyjWg3N6_Cp2ghX5Y9MTskeE3I",
+  },
 };
 
 export default function RootLayout({
@@ -24,12 +26,6 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="iTIYemNM9tmUoVmVehyjWg3N6_Cp2ghX5Y9MTskeE3I"
-        />
-      </Head>
       <body
         className={` antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-4 lg:mx-auto`}
       >
