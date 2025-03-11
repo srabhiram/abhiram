@@ -14,22 +14,22 @@ function Nav() {
         <div className="flex justify-start gap-4 mt-4 mb-6 py-2 text-[17px]">
           <Link href="/">
             {" "}
-            <h3 className="cursor-pointer font-sans text-white/85 hover:text-white">
+            <h3 className="cursor-pointer font-sans dark:text-white/85 dark:hover:text-white">
               Home
             </h3>
           </Link>
           <Link href="/projects">
-            <h3 className="cursor-pointer font-normal text-white/85 hover:text-white">
+            <h3 className="cursor-pointer font-normal dark:text-white/85 dark:hover:text-white">
               Projects
             </h3>
           </Link>
           <Link href="/resume">
-            <h3 className="cursor-pointer font-normal text-white/85 hover:text-white">
+            <h3 className="cursor-pointer font-normal dark:text-white/85 dark:hover:text-white">
               Resume
             </h3>
           </Link>
           <Link href="/contact">
-            <h3 className="cursor-pointer font-normal text-white/85 hover:text-white">
+            <h3 className="cursor-pointer font-normal dark:text-white/85 dark:hover:text-white">
               Contact
             </h3>
           </Link>
@@ -37,7 +37,7 @@ function Nav() {
         <div>
           {curentPathname === "/resume" && (
             <div
-              className="flex gap-1.5 hover:cursor-pointer font-sans text-white hover:bg-white/5 rounded  border-solid border-1 p-1 mr-4"
+              className="flex gap-1.5 hover:cursor-pointer font-sans dark:text-white dark:hover:bg-white/5 rounded  border-solid border-1 p-1 mr-4"
               onClick={handlePrint}
             >
               Print <span>🖨️</span>
