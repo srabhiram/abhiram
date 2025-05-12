@@ -1,7 +1,7 @@
 import Badge from "../components/Badge";
 import Separator from "../components/Seperator";
 import Image from "next/image";
-import logo_10kcoders from "../../public/logo_coders.png";
+import srsNews from "../../public/srs-news.png";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -41,20 +41,20 @@ export default function Home() {
         <h2 className="font-semibold font-['monospace'] text-xl my-4">Professionall Work</h2>
 
         <p className="align-middle">
-          I specailised in building scalable and responsive web applications I
-          Worked as Frontend Developer at{" "}
+          I specailised in building scalable and responsive web applications. Currently I
+          Working as Freelance Full stack Developer at{" "}
           <span>
-            <Badge href="https://10kcoders.com/">
+            <Badge href="https://srs-news.vercel.app/">
               <Image
-                src={logo_10kcoders}
+                src={srsNews}
                 alt="10kcoders"
                 width={18}
                 className="mr-1"
               />
-              10k coders
+              SRS News
             </Badge>
           </span>{" "}
-          Where i build some cool projects.{" "}
+          Where we building Regional News Blog.{" "}
         </p>
         <br />
         <p>

@@ -29,9 +29,24 @@ function ResumePage() {
   const resumeData = {
     workExerience: [
       {
+        company: "SRS News",
+        role: "Full Stack Developer",
+        duration: "April 2025 - Present",
+        website: "https://srs-news.vercel.app/",
+        logo: "/srs-news.png",
+        location: "Remote",
+        worktype: "Freelancer",
+        technologies: ["Next.js", "Typescript", "Redux", "MongoDB", "ShadCN", "Tailwind CSS"],
+        responsibilities: [
+          "Devoloping and maintaining News blog platform ",
+          "Ensuring scalability and performance optimization for high traffic volumes.",
+          "Building user friendly interface to enhance customer experince ",
+        ],
+      },
+      {
         company: "GlobalLogic Technologies",
         role: "Analyst",
-        duration: "July 2024 - Present",
+        duration: "July 2024 - Feb 2025 ",
         website: "https://www.globallogic.com/",
         logo: "/GlLogo.png",
         location: "Hyderabad",

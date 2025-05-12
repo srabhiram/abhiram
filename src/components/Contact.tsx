@@ -10,7 +10,7 @@ function Contact() {
         <EnvelopeSimple size={22}/>
         <a
           href="mailto:sriramoji.abhiram@gmail.com"
-          className="underline text-white/85 hover:text-white"
+          className="underline dark:text-white/85 dark:hover:text-white"
         >
           sriramoji.abhiram@gmail.com
         </a>

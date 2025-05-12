@@ -33,7 +33,7 @@ function Proejct_card({
         )}
         <a href={website} className="underline font-semibold">{title}</a>
       </div>
-      <p className="mb-4 text-white/50 text-sm">{description}</p>
+      <p className="mb-4 dark:text-white/50 text-sm">{description}</p>
       <div className="flex  flex-wrap gap-2">
         {technologies.map((tech: string) => (
           <Chip key={tech} tech={tech} />

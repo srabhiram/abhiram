@@ -25,12 +25,39 @@ export const metadata: Metadata = {
 function Projects() {
   const Projects_data = [
     {
+       project_name: "SRS News(400+ active users)",
+      logo: "/srs-news.png",
+      description:
+        "A Regional News blog",
+      technologies: [
+        "Next.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Cloudinary",
+        "JWT",
+        "Redux"
+      ],
+      website: "https://srs-news.vercel.app/",
+    },
+    {
+       project_name: "json-purify",
+      logo: "/json.webp",
+      description:
+        "A npm package to remove null values empty strings and empty array/objects.",
+      technologies: [
+        "Node.js",
+        "TypeScript",
+        "npm package development",
+      ],
+      website: "https://www.npmjs.com/package/json-purify",
+    },
+    {
       project_name: "ShopNest",
       logo: "/shopnest.png",
       description:
         "A E-commerce Platform where user can buy vast varity of products",
       technologies: [
-        "React",
+        "React.js",
         "Node",
         "Express",
         "NeonDB",
@@ -46,7 +73,7 @@ function Projects() {
       description:
         "A Productivy management appplication, where user can manage your tasks",
       technologies: ["Next.JS", "TailwindCSS", "Node", "Express", "MongoDB"],
-      website: "",
+      website: "https://stickywalls.vercel.app/",
     },
     {
       project_name: "E-Prathibha",
@@ -54,7 +81,7 @@ function Projects() {
       description:
         "A UPSC Exam Preaparation Web App, where user can practice for UPSC exam",
       technologies: ["React", "Bootstrap", "Redux", "RestAPI"],
-      website: "",
+      website: "https://github.com/srabhiram/e-prathibha-app",
     },
     {
       project_name: "SecureAUTH",
@@ -62,16 +89,8 @@ function Projects() {
       description:
         "A secure Authentication system, featuring Signup and Signin with dynamic and responsive outputs.",
       technologies: ["Node", "Express", "EJS", "JWT", "MongoDB"],
-      website: "",
-    },
-    {
-      project_name: "QR code Generator",
-
-      description:
-        "A QR Code Generator, where user can generate QR codes for any URL/Text",
-      technologies: ["React", "Javascript", "TailwindCSS"],
-      website: "",
-    },
+      website: "https://github.com/srabhiram/SecureAuth",
+    }
   ];
   return (
     <main>
